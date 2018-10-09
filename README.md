@@ -1,0 +1,6 @@
+# neuralNetworksForMachineLearning
+
+
+
+
+notebook and quiz
