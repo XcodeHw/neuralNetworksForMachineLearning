@@ -1,0 +1,18 @@
+load dataset1
+w = learn_perceptron(neg_examples_nobias,pos_examples_nobias,w_init,w_gen_feas)
+Number of errors in iteration 0:        5
+weights:        [-0.621701473780905;0.760915272851413;0.771872048918481]
+<Press enter to continue, q to quit.>
+maybe you will be confused about the "distance" and " Number of errors", so let's do several iteration, and then you will see it clearly:
+we can find that in the plot above, the dot linked into a line, let's do more iterations and you can figure it out:
+this is after 6 interations, we get a longer line, because we didn't make up the missing part in the code, so now the distance will not change.
+The top left plot shows the data points. The circles represent one class while the squares represent the other. 
+The line shows the decision boundary of the perceptron using the current set of weights.
+The green examples are those that are correctly classified while the red are incorrectly classified. 
+The top-right plot will show the number of mistakes made by the perceptron.
+If a generously feasible weight vector is provided (and not empty), 
+then the bottom left plot will show the distance of the learned weight vectors to the generously feasible weight vector.Currently,
+the code doesn't do any learning. It is your job to fill this part in. Specifically, you need to fill in the lines under learn_perceptron.m marked %YOUR CODE HERE (lines 114 and 122). 
+When you are finished, use this program to help you answer the questions below.In addition, we print out the plot of dataset 2/3/4, 
+because it will help us answering the questions below.
+https://blog.csdn.net/SophieCXT/article/details/80426539
